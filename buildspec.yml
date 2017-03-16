@@ -3,6 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
+      - env
       - echo $CODEBUILD_BUILD_ID >> index.html
 
 artifacts:
