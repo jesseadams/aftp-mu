@@ -20,3 +20,7 @@ service:
       repo: jesseadams/aftp-mu
     build:
       image: aws/codebuild/ubuntu-base:14.04
+    acceptance:
+      environment: jesse-dev
+   production:
+      environment: jesse-prod
