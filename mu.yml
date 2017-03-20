@@ -22,5 +22,5 @@ service:
       image: aws/codebuild/ubuntu-base:14.04
     acceptance:
       environment: jesse-dev
-   production:
+    production:
       environment: jesse-prod
