@@ -1,12 +1,14 @@
 ---
 
 environments:
-  - name: dev
+  - name: jesse-dev
     cluster:
       maxSize: 2
+  - name: jesse-prod
+    cluster:
+      maxSize: 4
 
 service:
-  name: jesse-test
   memory: 100
   port: 80
   healthEndpoint: /aftp/index.html
@@ -18,6 +20,3 @@ service:
       repo: jesseadams/aftp-mu
     build:
       image: aws/codebuild/ubuntu-base:14.04
-
-pipeline:
-  muBaseurl: http://lol.nope
