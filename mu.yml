@@ -24,5 +24,5 @@ service:
       environment: jesse-dev
     production:
       environment: jesse-prod
-    muBaseurl: https://github.com/stelligent/mu/releases/download 
-    muVersion: v0.1.10-git-revision-from-codepipeline
+    muBaseurl: https://github.com/jesseadams/mu/releases/download 
+    muVersion: 0.1.10-git-revision-from-codepipeline
